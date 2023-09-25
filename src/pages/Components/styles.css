@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #007bff;
+  --background: rgb(240, 255, 243);
+}
+.components-page {
+  margin: 6rem;
+}
+.component-grid {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+
+.component-headings {
+  margin: 2rem 0px;
+  color: var(--primary-color);
+}
+.component-box {
+  flex-basis: calc(
+    33.33% - 20px
+  ); /* Adjust for the desired column width and gap */
+  background-color: var(--background);
+  padding: 20px;
+  text-align: center;
+}
+
+.component-box a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+/* Add responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .component-box {
+    flex-basis: calc(50% - 20px); /* Two columns per row on smaller screens */
+  }
+}

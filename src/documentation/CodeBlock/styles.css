@@ -1,0 +1,11 @@
+.codeblock {
+  margin: 1rem 0px;
+  padding: 0.5rem 1rem;
+  background-color: rgb(240, 255, 243);
+  border-radius: 5px;
+}
+
+.codeblock p {
+  margin: 0.5rem 0px;
+  font-family: Consolas;
+}

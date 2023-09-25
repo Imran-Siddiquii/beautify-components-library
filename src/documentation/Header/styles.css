@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #007bff;
+}
+/* Style for the header */
+header {
+  background-color: rgb(248, 255, 249);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Style for the brand logo and name */
+.brand {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.brand img {
+  width: 50px; /* Adjust the logo size as needed */
+  height: auto;
+  margin-right: 10px; /* Add some spacing between logo and text */
+}
+.brand a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* Style for the search box and button */
+.search-box {
+  flex-grow: 1; /* Allow the search box to expand and take available space */
+  padding: 5px;
+  display: flex;
+  place-content: center;
+}
+
+.search-input {
+  width: 50%; /* Set search box width to 50% */
+  padding: 8px;
+  /* border: none; */
+  border-right: none;
+  /* border: none; */
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-color: var(--primary-color);
+}
+.search-input:focus {
+  outline: none;
+}
+.search-button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+
+  border-left: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+.search-button:focus {
+  outline: none;
+}
+/* Style for the links on the right */
+.links {
+  color: var(--primary-color);
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+}
+.links ul {
+  list-style: none;
+  display: flex;
+}
+.links li {
+  margin: 0px 10px;
+}
+.links a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+/* Add responsive styles */
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .brand {
+    margin-bottom: 10px;
+  }
+
+  .search-box {
+    width: 100%; /* Change search box width to 100% on smaller screens */
+    max-width: 300px;
+  }
+
+  .links {
+    margin-top: 10px;
+    justify-content: center;
+  }
+}

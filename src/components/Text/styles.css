@@ -1,0 +1,45 @@
+.text-page {
+  display: flex;
+  padding: 20px;
+}
+
+.text-container {
+  flex-wrap: wrap; /* Allow text elements to wrap to the next row */
+}
+
+.Text {
+  margin: 10px;
+  padding: 10px;
+}
+
+.small {
+  font-size: 14px; /* Small text size */
+}
+
+.large {
+  font-size: 18px; /* Large text size */
+}
+
+.extra-large {
+  font-size: 24px; /* Extra large text size */
+}
+
+.large-2x {
+  font-size: 30px; /* 2x larger than the base font size */
+}
+
+.large-3x {
+  font-size: 42px; /* 3x larger than the base font size */
+}
+
+.large-4x {
+  font-size: 54px; /* 4x larger than the base font size */
+}
+
+.large-5x {
+  font-size: 66px; /* 5x larger than the base font size */
+}
+
+.large-6x {
+  font-size: 78px; /* 6x larger than the base font size */
+}

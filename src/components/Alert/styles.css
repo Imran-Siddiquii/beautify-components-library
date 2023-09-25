@@ -1,0 +1,38 @@
+.alert {
+  display: flex; /* Use flex to arrange icon and content horizontally */
+  padding: 10px;
+  border-radius: 4px;
+  margin: 10px;
+  text-align: center;
+  align-items: center; /* Vertically center items */
+}
+.alert-container {
+  padding: 20px;
+}
+.alert-container > .alert-icon {
+  padding: 15px;
+}
+.alert-icon {
+  margin-right: 10px; /* Add spacing between icon and content */
+  font-size: 24px; /* Adjust the icon size */
+}
+
+.info {
+  background-color: #007bff;
+  color: white;
+}
+
+.success {
+  background-color: #28a745;
+  color: white;
+}
+
+.warning {
+  background-color: #ffc107;
+  color: #333;
+}
+
+.error {
+  background-color: #dc3545;
+  color: white;
+}

@@ -1,0 +1,35 @@
+.badge-page {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.badge-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+.success {
+  background-color: #28a745; /* Green for success */
+  color: white;
+}
+
+.warning {
+  background-color: #ffc107; /* Yellow for warning */
+  color: #333;
+}
+
+.error {
+  background-color: #dc3545; /* Red for error */
+  color: white;
+}

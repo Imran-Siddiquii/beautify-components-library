@@ -1,0 +1,16 @@
+.image-page {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.image-round-description {
+  margin-bottom: 30px;
+  padding-left: 10px;
+}

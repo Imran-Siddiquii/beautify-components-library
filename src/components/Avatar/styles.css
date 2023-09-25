@@ -1,0 +1,40 @@
+.avatar-page {
+  display: flex;
+  /* flex-direction: column; Stack content vertically */
+  /* align-items: center; */
+  padding: 30px 0px; /* Adjust for the height of the header */
+}
+
+.content-container {
+  /* text-align: center; */
+  margin-top: 20px;
+}
+
+.avatar-container {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.avatar {
+  /* border: 2px solid #007bff; */
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 10px;
+  background-color: rgb(240, 255, 243);
+}
+
+.avatar-image {
+  width: 30px; /* Small Avatar size */
+  height: 30px;
+}
+
+.avatar.medium .avatar-image {
+  width: 60px; /* Medium Avatar size */
+  height: 60px;
+}
+
+.avatar.large .avatar-image {
+  width: 90px; /* Large Avatar size */
+  height: 90px;
+}

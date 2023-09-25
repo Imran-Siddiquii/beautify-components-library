@@ -1,0 +1,172 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  width: max-content;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding-top: 3rem;
+}
+
+.card-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-paragraph {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Style for the Badge component */
+.card .badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dismissal-card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  width: max-content;
+}
+
+.dismissal-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+  padding: 0;
+}
+
+.dismissal-button:focus {
+  outline: none;
+}
+
+/* Styles for the Card component (you can customize these) */
+.dismissal-card .card-content {
+  padding: 10px;
+}
+
+.dismissal-card .card-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.dismissal-card .card-paragraph {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.card-dismissal-heading {
+  margin-top: 30px;
+}
+
+/* // cardImage */
+
+.image-card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden; /* Hide overflow to ensure overlay covers the entire card */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Black background with 60% opacity */
+  padding: 10px;
+  color: white;
+}
+
+.card-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* vartical card */
+.vertical-image-card {
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden; /* Hide overflow to ensure overlay covers the entire card */
+  text-align: center;
+}
+
+.card-image-vartical {
+  width: max-content;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* horizontal card */
+
+.horizontal-card {
+  position: relative;
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card-image-horizontal {
+  height: auto;
+  width: max-content;
+  display: block;
+}
+
+.card-content {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.card-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 14px;
+  margin: 0;
+}

@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.page-content {
+  flex-grow: 1;
+  overflow-y: auto; /* Add vertical scrolling if necessary */
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
